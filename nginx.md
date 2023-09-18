@@ -12,6 +12,21 @@ sudo systemctl status nginx
 sudo vim /etc/nginx/sites-available/appbridge
 cat /etc/nginx/sites-available/appbridge
 ```
+```sh
+sudo systemctl restart nginx
+sudo nginx -s reload
+sudo systemctl status nginx
+```
+sudo apt update
+sudo apt install nginx
+sudo yum install nginx
+systemctl list-units --type=service
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+sudo nginx -t
+
+
 
 ```
 server {
