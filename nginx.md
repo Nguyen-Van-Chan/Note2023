@@ -17,6 +17,7 @@ sudo systemctl restart nginx
 sudo nginx -s reload
 sudo systemctl status nginx
 ```
+```sh
 sudo apt update
 sudo apt install nginx
 sudo yum install nginx
@@ -25,7 +26,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
 sudo nginx -t
-
+```
 
 
 ```
